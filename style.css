@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: circular;
+    src: url(Fonts/circular-bold.woff2);
+}
+body{
+    font-family: circular;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background: #000;
+    z-index: 1;
+}
+nav img{
+    position: absolute;
+    width: 135px;
+    margin-top: -40px;
+    left: 6%;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+    margin-right: 90px;
+    list-style: none;
+
+}
+nav ul li{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 24px;
+    display: inline-block;
+    line-height: 50px;
+    margin: 15px 15px;
+}
+nav ul li a{
+    position: relative;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+nav ul li a:hover{
+    color: #1ED760;
+}
+nav ul li#separador{
+    color: white;
+}
+label #sign-one,
+label #sign-two{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#res-menu{
+    display: none;
+}
+section{
+    background-color: #2D46B9;
+    height: 750px;
+
+}
+section button#obtenha{
+    position: absolute;
+    font-family: circular;
+    height: 53px;
+    width: 300px;
+    color:#2D46B9;
+    font-size: 13px;
+    font-weight: 700;
+    background-color:rgb(25, 196, 85) ;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    border-style: none;
+    left:42%;
+    margin-left:-42px;
+    
+}
+section button#obtenha:hover{
+    background-color: white;
+
+}
+section p{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 156px;
+    font-weight: 900;
+    line-height: 163px;
+    color: #1ed760;
+    letter-spacing: -8px;
+    font-weight: 900;
+
+}
+section h2{
+    padding-top: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1ed760;
+    text-align: center;
+}
+section#informacoes{
+    position: absolute;
+    background-color: black;
+    height: 540px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+section#informacoes li{
+    list-style: none;
+    color:#919496;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 17px;
+
+    
+}
+section#informacoes li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+section#informacoes li a:hover{
+    color: #1ed760;
+
+}
+.logo-rodape img{
+    float: left;
+    width: 135px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.empresa{
+    margin-top:95px ;
+    margin-left: 294px;
+}
+.empresa li{
+    padding: 7px;
+}
+.comunidades{
+    margin-top:-145px ;
+    margin-left: 490px;
+
+}
+.comunidades li{
+    padding: 7px;
+}
+.linksuteis{
+    margin-top:-225px ;
+    margin-left: 685px;
+
+}
+.linksuteis li{
+    padding: 7px;
+}
+.circulo1{
+    margin-top: -132px;
+    margin-right: 104px;
+    float: right;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #222326;
+}
+
+.sociais svg#face{
+    margin-right: 123px;
+    margin-top: -117px;
+    float: right;
+    width: 15px;
+    fill: #fff;
+
+}
+
+.sociais svg#face:hover{
+    fill: #1ED760;
+}
+.circulo2{
+    margin-top: -132px;
+    margin-right: 174px;
+    float: right;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #222326;
+}
+
+.sociais svg#twitter{
+    margin-right: 190px;
+    margin-top: -117px;
+    float: right;
+    width: 21px;
+    fill: #fff;
+
+}
+
+.sociais svg#twitter:hover{
+    fill: #1ED760;
+}
+.circulo3{
+    margin-top: -132px;
+    margin-right: 241px;
+    float: right;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #222326;
+}
+
+.sociais svg#insta{
+    margin-right: 257px;
+    margin-top: -117px;
+    float: right;
+    width: 23px;
+    fill: #fff;
+
+}
+
+.sociais svg#insta:hover{
+    fill: #1ED760;
+}
+#informacoes .brasil{
+    text-decoration: none;
+    font-size: 10pt;
+    float: right;
+    margin-right: 105px;
+    margin-top: 188px;
+    color: rgba(255,255,255,.6);
+}
+footer ul{
+    margin-left: 106px;
+    margin-top: 220px;
+
+}
+footer ul#rodape a {
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 24px;
+    float: left;
+    color: rgba(255,255,255,.6);
+    margin-right: 20px;
+    
+}
+footer ul#rodape li{
+    display: inline-block;
+}
+footer p#spot2021{
+    letter-spacing: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    float: right;
+    margin-right: 105px;
+    margin-top: -200px;
+    color: rgba(255,255,255,.6);
+    margin-bottom: -20px;
+
+}
+
+@media (max-width: 768px){
+    label #sign-one{
+        display: block;
+    }
+    nav{
+        height: 55px;
+    }
+    nav img{
+        width: 95px;
+        left: 13%;
+        margin-top: -30px
+    }
+    nav ul {
+        position: fixed;
+        width: 447px;
+        height: 100vh;
+        background: #000;
+        top: 50px;
+        right: -100%;
+        margin-right: -30px;
+        transition: .5s;
+        z-index: 10;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+        margin-right: 220px;
+        margin-top: -5px;
+        margin-left: 30px;
+        text-align: left; 
+        
+    }
+    
+    nav ul li a{
+        font-size: 28px;
+    }
+    nav ul li a.big{
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 700;
+    
+    }
+    
+    nav ul li#separador{
+        position:absolute;
+        font-size: 22px;
+        color: white;
+        transform: rotate(90deg);
+        margin-left: 40px;
+         
+    }
+    section button#obtenha{
+        position:absolute;
+        font-family: circular;
+        height: 53px;
+        width: 300px;
+        color:#2D46B9;
+        font-size: 13px;
+        font-weight: 700;
+        background-color:rgb(25, 196, 85) ;
+        text-align: center;
+        border-radius: 25px;
+        letter-spacing: 2px;
+        border-style: none;
+        left:30%;
+        margin-left:-42px;
+      
+    }
+
+    #res-menu:checked ~ ul{
+        right: 0;
+    }
+    #res-menu:checked ~ label #sign-one{
+        display: none;
+    }
+    #res-menu:checked ~ label #sign-two{
+        display:block
+    }
+
+}
